@@ -45,8 +45,7 @@ public class NutritionFacts {
     }
     
     public static void main(String[] args) {
-        @SuppressWarnings("unused")
-        NutritionFacts cocaCola = new NutritionFacts(240, 8, 100, 0, 35, 27);
+        new NutritionFacts(240, 8, 100, 0, 35, 27);
     }
     
 }
